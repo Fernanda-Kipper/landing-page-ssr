@@ -13,8 +13,6 @@
 <p align="center">
  <a href="#about">About</a> • 
  <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
 </p>
 
