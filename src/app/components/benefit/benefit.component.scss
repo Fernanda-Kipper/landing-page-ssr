@@ -4,19 +4,32 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-
-    max-width: 600px;
+    max-width: 100%;
 
     h5 {
-       font-size: 32px;
+       font-size: 24px;
        font-weight: 600;
        margin: 0;
        color: $primary-text;
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         color: $secondary-text;
+    }
+}
+
+@media (min-width: 768px) {
+    .benefit-card {
+        max-width: 600px;
+
+        h5 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 16px;
+        }
     }
 }
