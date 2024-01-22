@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 84px;
+    gap: 40px;
 }
 
 .main-section {
@@ -11,19 +11,23 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
     font-family: "Roboto", sans-serif;
 
     span {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
         color: $secondary-text;
     }
     
     h1 {
-        font-size: 72px;
+        font-size: 36px;
         font-weight: 900;
         color: $primary-text;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -33,14 +37,14 @@ main {
     align-items: center;
     justify-content: center;
 
-    gap: 70px;
+    gap: 40px;
 
     .benefit-data {
         border-bottom: 10px solid $secondary-color;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
 
         h2 {
-            font-size: 60px;
+            font-size: 48px;
             font-weight: 600;
             font-family: "Roboto", sans-serif;
             color: $primary-text;
@@ -48,7 +52,7 @@ main {
     }
 
     p {
-        font-size: 40px;
+        font-size: 24px;
         font-style: italic;
         font-weight: 300;
 
@@ -70,20 +74,37 @@ main {
     h2 {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
-        font-size: 60px;
+        font-size: 48px;
         color: $primary-text;
         margin: 0;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 
-@media (min-width: 1080px) {
+// Estilos para tablets e desktops
+@media (min-width: 768px) {
     .main-section {
         flex-direction: row;
+        span {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 72px;
+        }
     }
 
     .benefit-section {
         flex-direction: row;
+        .benefit-data h2 {
+            font-size: 60px;
+        }
+        p {
+            font-size: 40px;
+        }
+    }
+
+    .cta-section h2 {
+        font-size: 60px;
     }
 }
