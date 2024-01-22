@@ -1,27 +1,89 @@
-# LandingPage
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]: https://landing-page-ssr.vercel.app/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+<h1 align="center" style="font-weight: bold;">Landing Page w/ SSR</h1>
 
-## Development server
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#started">App Routes</a> • 
+  <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Code scaffolding
+<p align="center">
+    <img src="./.github/landing-page.png" alt="Page Layout" width="400px">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 id="started">📌 About</h2>
 
-## Build
+This repository contains a Landing Page built with Angular 17 using SSR mechanism built during a live on my [Youtube Channel](https://www.youtube.com/live/O26fDEnAukY?si=8OjYdSyhlAuNUSa_).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+[![project][PROJECT__BADGE]][PROJECT__URL]
 
-## Running unit tests
+<h2 id="started">🚀 Getting started</h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Here you describe how to run your project locally
 
-## Running end-to-end tests
+<h3>Prerequisites</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Here you list all prerequisites necessary for running your project. For example:
 
-## Further help
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone https://github.com/Fernanda-Kipper/landing-page-ssr.git
+cd lading-page
+```
+
+<h3>Starting</h3>
+
+Now you just need to install dependencies then run it.
+
+```bash
+npm install
+npm start
+```
+
+<h2 id="contribute">📫 Contribute</h2>
+
+We welcome contributions to the Text Editor project! Whether you're fixing a bug, adding a feature, or improving documentation, your input is valuable. Here's how you can contribute:
+
+
+1. **Create a Feature Branch**
+
+Always work on a new branch for your changes. This keeps the main branch clean and your history organized:
+
+2. **Follow Coding Standards**
+
+Consistency is key! Adhere to the coding standards and patterns established in the project. This ensures readability and maintainability of the code.
+
+3. **Commit Your Changes**
+
+Write clear, concise commit messages following the [Commit Pattern Guidelines](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716). This helps in understanding the purpose of your changes and speeds up the review process.
+
+4. **Open a Pull Request**
+
+Once your changes are ready, push your branch to your fork and [open a pull request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request) against the main repository. In your pull request description, clearly describe the problem solved or feature added. If your changes are visual, attach screenshots to help reviewers understand your modifications.
+
+5. **Wait for Review**
+
+The project maintainers will review your pull request. Engage in the discussion, and make any requested changes. Your contributions will be merged into the project once approved!
+
+<h3>Helpful links</h3>
+
+- [Angular 17 Docs](https://angular.dev/)
+- [Figma Layout](https://www.figma.com/file/JbHAcivlz9PqqnWfzoZU8W/Portfolio---LIVE-Angular?type=design&node-id=2265%3A60&mode=design&t=22nuYi9PkewLXkpD-1)
+
