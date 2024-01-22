@@ -4,6 +4,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-top: 20px;
 }
 
 .main-section {
@@ -11,6 +12,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
     font-family: "Roboto", sans-serif;
 
     span {
@@ -74,7 +76,7 @@ main {
     h2 {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 36px;
         color: $primary-text;
         margin: 0;
         text-align: center;
@@ -82,7 +84,6 @@ main {
     }
 }
 
-// Estilos para tablets e desktops
 @media (min-width: 768px) {
     .main-section {
         flex-direction: row;
