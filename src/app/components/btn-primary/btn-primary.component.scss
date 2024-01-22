@@ -5,7 +5,7 @@
     border-radius: 30px;
 
     cursor: pointer;
-    padding: 20px 40px;
+    padding: 16px 20px;
     
     &:disabled {
         opacity: 0.6;
@@ -15,7 +15,7 @@
         color: white;
         background: -webkit-linear-gradient(180deg, $primary-color, $secondary-color);
 
-        font-size: 24px;
+        font-size: 16px;
         font-weight: bold;
     }
 
@@ -23,7 +23,20 @@
         background: white;
         color: $primary-text;
 
-        font-size: 16px;
+        font-size: 12px;
         font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: 20px 40px;
+
+        .primary {
+            font-size: 24px;
+        } 
+        .secondary {
+            font-size: 16px;
+        }
     }
 }
