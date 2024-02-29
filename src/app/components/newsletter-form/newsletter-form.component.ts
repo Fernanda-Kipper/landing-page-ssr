@@ -36,7 +36,8 @@ export class NewsletterFormComponent {
         next: () => {
           this.newsletterForm.reset();
           this.loading.set(false);
-        }
+        },
+        error: () => this.loading.set(false)
       })
     }
   }
