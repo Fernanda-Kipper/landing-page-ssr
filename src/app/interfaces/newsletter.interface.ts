@@ -1,3 +1,3 @@
-interface NewsletterResponse {
+export interface NewsletterResponse {
     message: string
 }
